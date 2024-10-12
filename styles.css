@@ -1,0 +1,30 @@
+:root{
+    --primary-color: rgb(11, 11, 59);
+    --secondary-color: #e2e611;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+h1 {
+    color:cornflowerblue;
+    font-size: 40px;
+}
+
+p{
+    font-size: 14px;
+}
+
+.imagen-estilo {
+    width: 500px;
+    border: 6px solid #349834;
+    border-radius: 30px;
+}
+
+.body.italic{
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+}
